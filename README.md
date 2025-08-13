@@ -186,7 +186,7 @@ If you encounter any issues or have questions:
 🍴 **Fork it and make it your own!** 🍴  
 🐛 **Report bugs to help improve it!** 🐛
 
-[![GitHub stars](https://img.shields.io/github/stars/theumair07/google-instant-keywords-extractor.svg?style=social&label=Star)](https://github.com/yourusername/google-instant-keywords-extractor)
-[![GitHub forks](https://img.shields.io/github/forks/theumair07/google-instant-keywords-extractor.svg?style=social&label=Fork)](https://github.com/yourusername/google-instant-keywords-extractor/fork)
+[![GitHub stars](https://img.shields.io/github/stars/theumair07/google-instant-keywords-extractor.svg?style=social&label=Star)](https://github.com/theumair07/google-instant-keywords-extractor)
+[![GitHub forks](https://img.shields.io/github/forks/theumair07/google-instant-keywords-extractor.svg?style=social&label=Fork)](https://github.com/theumair07/google-instant-keywords-extractor/fork)
 
 </div>
