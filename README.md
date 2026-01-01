@@ -4,7 +4,7 @@ A powerful Chrome extension that enhances Google Search by allowing you to easil
 
 [![Extension Demo](https://img.shields.io/badge/Chrome-Extension-brightgreen)](https://chromewebstore.google.com/detail/jbkoeplmipccpeogfcadaoahefknignh?hl=en)
 [![Chrome Web Store](https://img.shields.io/badge/Chrome%20Web%20Store-Available-196fe2?logo=googlechrome&logoColor=white)](https://chromewebstore.google.com/detail/jbkoeplmipccpeogfcadaoahefknignh?hl=en)
-![Version](https://img.shields.io/badge/version-2.2-673AB7)
+![Version](https://img.shields.io/badge/version-2.3-673AB7)
 ![License](https://img.shields.io/badge/license-GPL%20v3-2196F3)
 ![Chrome Web Store Rating](https://img.shields.io/chrome-web-store/rating/jbkoeplmipccpeogfcadaoahefknignh?style=flat&color=ffc107)
 ![Chrome Web Store Users](https://img.shields.io/chrome-web-store/users/jbkoeplmipccpeogfcadaoahefknignh?style=flat&color=00bcd4)
@@ -19,6 +19,7 @@ A powerful Chrome extension that enhances Google Search by allowing you to easil
 - **☑️ Smart Selection**: Use checkboxes to select multiple suggestions
 - **🔒 Persistent Selection**: Maintains selections across DOM updates
 - **🔄 Real-time Updates**: Works seamlessly with Google's dynamic suggestions
+- **🔘 Toggle On/Off**: Easily enable or disable the extension from the popup
 - **💎 Beautiful UI**: Clean, modern interface with smooth animations
 - **🖥️ Responsive Design**: Works perfectly on all screen sizes
 - **♿ Accessible**: Full keyboard navigation and screen reader support
@@ -113,6 +114,7 @@ A powerful Chrome extension that enhances Google Search by allowing you to easil
 
 ### 🔒 Permissions
 - `activeTab`: Access to the current active tab (Google.com only)
+- `storage`: Save extension settings (toggle state)
 
 ## 🔧 Development
 
@@ -131,6 +133,12 @@ Contributions are welcome! Please feel free to submit a Pull Request. For major 
 4. Ensure compatibility with Manifest V3
 
 ## 📝 Changelog
+
+### ⚡Version 2.3
+- Added **Turn On/Off Extension** toggle in the popup
+- Extension state is saved and persists across browser sessions
+- When toggled off, all copy buttons and checkboxes are removed from suggestions
+- Improved popup layout with better spacing
 
 ### ⚡Version 2.2
 - Moved functionality from popup to direct search suggestions  
